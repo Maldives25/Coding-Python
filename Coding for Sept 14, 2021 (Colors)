@@ -1,0 +1,64 @@
+#code an interactive game where computer asks user for
+#favorite color, then returns items of same color
+
+#PSUEDOCODE
+#def Colors():
+#ask user for favorite color (out of ...)
+'''
+blue
+red
+yellow
+green
+orange
+purple
+'''
+#blue = [water, whale, dolphin, blueberries, blue topaz]
+#red = [apples, roses, raspberries, strawberries, cherries]
+#yellow = [sun, duck, lemon, minions, sunflower]
+#green = [mint, grass, frogs, green apple, tennis balls]
+#orange = [oranges, california poppies, carrots, pumpkins, cheez-its]
+#purple = [grapes, rosemary, lavender, eggplant, purple gem]
+#print("Here are some things whose color matches your choice!", favColor)
+
+def Colors():
+  print("Welcome to the colors game, where you give us \
+  a color and we give you objects in that color.")
+  favColor = str(input("What is your favorite color?\
+  (Choose from: blue, red, yellow, green, orange, purple)"))
+  blue = ["water", "whale", "dolphin", "blueberries", "blue topaz"]
+  red = ["apples", "roses", "raspberries", "strawberries", "cherries"]
+  yellow = ["sun", "duck", "lemon", "minions", "sunflower"]
+  green = ["mint", "grass", "frogs", "green apple", "tennis balls"]
+  orange = ["oranges", "california poppies", "carrots", "pumpkins", "cheez-its"]
+  purple = ["grapes", "rosemary", "lavender", "eggplant", "purple gems"]
+  if favColor == "red":
+    print("Here are some things whose color matches\
+    your choice:", red)
+  elif favColor == "blue":
+    print("Here are some things whose color matches\
+    your choice:", blue)
+  elif favColor == "yellow":
+    print("Here are some things whose color matches\
+    your choice:", yellow)
+  elif favColor == "green":
+    print("Here are some things whose color matches\
+    your choice:", green)
+  elif favColor == "orange":
+    print("Here are some things whose color matches\
+    your choice:", orange)
+  elif favColor == "purple":
+    print("Here are some things whose color matches\
+    your choice:", purple)
+ 
+Colors()
+
+
+
+
+'''
+same type of program
+EXCEPT:
+-ask for favorite animal and give info about that animal.
+(2-3 animals)
+4 things for each animal (avg life span, habitat, diet, color)
+'''
